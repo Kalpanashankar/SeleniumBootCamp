@@ -1,0 +1,8 @@
+<suite name="Suite" thread-count ="2" >
+ <test  name="Test"  thread-count ="2" >
+    <classes>
+      <class name="week2.testng.EditIndiviTestng"/>
+      
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,14 @@
+<suite name="Suite" thread-count ="2" >
+   <parameter name="url" value="https://login.salesforce.com" ></parameter>
+   <parameter name="username" value="kalpanashankar1997@gmail.com" ></parameter>
+   <parameter name="password" value="Shankar@123" ></parameter>
+ <test  name="Test"  thread-count ="2" >
+    <classes>
+      <class name="week2.testng.CreatIndivtestng"/>
+      <class name="week2.testng.EditIndiviTestng"/>
+      <class name="week2.testng.DeleteLeadTestng"/>
+      <class name="week2.testng.IndiviWithoutMandatoryTestng"/>
+      
+    </classes>
+  </test> 
+</suite> 
